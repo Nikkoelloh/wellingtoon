@@ -1,0 +1,164 @@
+
+h1{
+    color: rgb(116, 64, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 15.0rem;
+    text-decoration-line: underline;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Define duas colunas: uma para a imagem e outra para o texto */
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
+    font-size: 15.0rem;
+    color: rgb(176, 68, 0);
+}
+.container img {
+    width: 2500px; /* Largura da imagem */
+    height: 1000; /* Altura automática para manter a proporção */
+}
+h2{
+    color: rgb(155, 85, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 07.0rem;
+}
+.caixa-transparente { background-color: rgba(255, 255, 255, 0.5); /* cor branca com 50% de transparência */
+     padding: 10px; /* espaço interno */ 
+     border-radius: 10px; /* bordas arredondadas */ 
+     display: flex; /* usa flexbox para alinhar os itens em uma linha */
+      justify-content: 29; /* distribui espaço uniformemente entre os itens */ 
+      width: 100%; /* largura da caixa */
+       margin: auto; /* centraliza a caixa */ } 
+       
+ .caixa-transparente img { margin: 200px; /* espaçamento entre as imagens */
+        height: auto; /* mantém a proporção da imagem */ } 
+
+.imagem1 { width: 90%; /* largura da primeira imagem */ 
+
+} 
+
+.imagem2 { width: 100%; /* largura da segunda imagem */
+}
+
+.caixa {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 2000px;
+    text-align: center;
+    margin: center;
+    box-shadow: 0 0 10px rgba(255, 149, 0, 0.1);
+    border-radius: 5px;
+}
+
+.caixa img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.caixa p {
+    font-size: 1em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.caixa button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ffb30097;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 10em;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    width: 1500px;
+    height: 1000;
+}
+
+.caixa button:hover {
+    background-color: #ffae00;
+}
+
+h4 {
+    font-family: 'Arial', sans-serif;
+    font-size: 100px;
+}
+
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-box {
+    width: 45%; /* Ajuste conforme necessário */
+    border: 1px solid #ba101000;
+    padding: 10px;
+    background-color: rgba(255, 128, 0, 0.275);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.image-box p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.image-box button {
+    background-color: #cc8500a5;
+    color: rgba(255, 255, 255, 0.199);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.image-box button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.image-box:hover {
+    transform: scale(1.05);
+}
+
+.image-box img:hover {
+    transform: scale(1.1);
+}
+
+.image-box button:hover {
+    background-color: #ffbf00;
+}
+
+h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 200px;
+    color: #ff8800;
+    text-align: center;
+    
+    
+}
